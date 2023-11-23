@@ -42,7 +42,7 @@ export class AppService {
     return results;
   }
 
-  // Concurrency or Parallelism
+  // Concurrency or Parallelism ->
   async promisesParallel() {
     const promises = [];
     for (let i = 0; i < 10; i++) {
